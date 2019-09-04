@@ -1,0 +1,9 @@
+image:
+    file: Dockerfile
+ports:
+- port: 8000
+tasks:
+- command: mkdir build
+- command: cd build
+- command: cmake
+
