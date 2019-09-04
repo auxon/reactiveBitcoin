@@ -6,4 +6,3 @@ tasks:
 - command: mkdir build
 - command: cd build
 - command: cmake
-
