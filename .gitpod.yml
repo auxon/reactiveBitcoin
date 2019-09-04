@@ -3,4 +3,6 @@ image:
 ports:
 - port: 8000
 tasks:
-- command: mkdir build & cd build & cmake
+- command: mkdir build
+- command: cd build
+- command: cmake
